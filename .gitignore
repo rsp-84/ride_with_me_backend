@@ -1,0 +1,43 @@
+# Binaries and Build Artifacts
+*.exe
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Output directories
+bin/
+build/
+out/
+
+# Object files
+*.o
+
+# Coverage files
+coverage.out
+
+# Logs and Debugging
+*.log
+
+# Temporary Files
+*.tmp
+*.temp
+*.swp
+*~
+
+# IDE and Editor Directories
+.vscode/
+.idea/
+*.code-workspace
+
+# OS Generated Files
+.DS_Store
+Thumbs.db
+
+# Gqlgen
+graph/generated/
+graph/generated/models
+
+# Env Files
+.env
